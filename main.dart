@@ -1,6 +1,6 @@
 import 'organizer.dart';
 
-void main(List<String> args) {
+void main() {
   String photos = """DSC012333.jpg, Madrid, 2016-10-01 13:02:34
 DSC044322.jpg, Milan, 2015-03-05 10:11:22
 DSC130033.raw, Rio, 2018-06-02 17:01:30
