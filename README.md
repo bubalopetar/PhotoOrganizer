@@ -2,6 +2,12 @@
 
 Dart script used for organizing photos.
 
+## Clone project
+
+```bash
+gh repo clone bubalopetar/PhotoOrganizer
+```
+
 ## Usage
 
 ```dart
@@ -19,4 +25,10 @@ Organizer organizer = Organizer(photos);
 
 // call organizer.getOrganizedPhotos() method to retrieve organized photos string
 print(organizer.getOrganizedPhotos());
+```
+
+## Run script
+
+```bash
+dart main.dart
 ```
