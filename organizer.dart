@@ -20,7 +20,7 @@ class Organizer {
 
   void _extractSinglePhotoStringsAndCreatePhotos() {
     // Function used to retrieve single Photo string from given full photos string
-    // and send it to parsing to Photo class. Creates photos list and calls a function 
+    // and send it to parsing to Photo class. Creates photos list and calls a function
     // that inserts photo in Map to coresponding city.
 
     _photosString.split('\n').forEach((photoString) {
